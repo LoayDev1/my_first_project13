@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #EBF5FF;
+
+}
+
+.conteneer {
+    display: flex;
+    gap: 10px;
+    height: 400px;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 30px;
+
+
+
+}
+
+img:nth-child(1) {
+    width: 250px;
+}
+
+.main {
+    position: relative;
+    border: solid 0px gray;
+    border-radius: 20px;
+    margin: 30px;
+    background-color: white;
+
+}
+
+.loayimg {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+.top {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: blue;
+
+}
+
+.top span {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 5px;
+
+}
+
+h2 {
+    display: flex;
+    font-size: 20px;
+    transform: translateY(20px);
+}
+
+a {
+    padding: 5px;
+    position: absolute;
+    left: 10px;
+    top: 34px;
+    text-decoration: none;
+}
+
+img {
+    border-radius: 20px 20px 0 0;
+}
+
+.content1 {
+    position: relative;
+    display: flex;
+
+
+}
+
+.content1 span:nth-child(1) {
+    position: absolute;
+    bottom: 55px;
+    right: 20px;
+}
+
+.content1 span:nth-child(2) {
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+}
+
+.bottom img {
+    position: absolute;
+    height: 34px;
+    width: 34px;
+    padding: 5px;
+    top: 39px;
+}
+
+.bottom span {
+    position: absolute;
+    right: 32px;
+    top: 42px;
+}
+
+.title {
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: underline blue;
+    text-underline-offset: 20px;
+
+}
+
+.title img {
+    height: 32px;
+    width: 32px;
+    margin-bottom: 20px;
+}
+
+.content1 img:nth-child(1) {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+
+}
+
+.content1 img:nth-child(2) {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    bottom: 55px;
+    right: 20px;
+}
+
+.content1 span:nth-child(1) img {
+    position: absolute;
+    left: 90px;
+    top: 8px;
+}
+
+.content1 span:nth-child(2) img {
+    position: absolute;
+    right: -17px;
+    top: 8px;
+}
+
+p {
+    position: absolute;
+    right: 215px;
+    top: 130px;
+    color: #007AFF;
+}
+a:hover{
+    font-size: 20px;
+}
+.bottom img:hover{
+    width: 30px;
+    height: 30px;
+    background-color: black; 
+}
+.bottom span:hover{
+    font-size: 30px;
+}
